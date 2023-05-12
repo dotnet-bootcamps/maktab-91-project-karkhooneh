@@ -1,4 +1,4 @@
-﻿using App.Domain.Core.AppServices.Orders.Commands;
+﻿using App.Domain.Core.AppServices.Customers.Commands;
 using System;
 using System.Collections.Generic;
 using System.Linq;

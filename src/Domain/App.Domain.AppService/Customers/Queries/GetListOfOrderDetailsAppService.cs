@@ -1,4 +1,5 @@
 ﻿using App.Domain.Core.AppServices.Customers.Queries;
+using App.Domain.Core.AppServices.Experts.Queries;
 using App.Domain.Core.DataAccess;
 using App.Domain.Core.DtoModels.Customers;
 

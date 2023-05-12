@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.Domain.Core.AppServices.Orders.Commands
+namespace App.Domain.Core.AppServices.Customers.Commands
 {
     /// <summary>
     /// ابتدا امتیاز از نظر مشتری در سفارش ثبت شود

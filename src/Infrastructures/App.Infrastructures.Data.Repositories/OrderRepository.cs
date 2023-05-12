@@ -30,7 +30,7 @@ namespace App.Infrastructures.Data.Repositories
                 LastModifiedAt = s.LastModifiedAt,
                 //ListOfServiceIds = 
                 ScoreByCustomerId = s.ScoreByCustomerId,
-                ScoreByExpertId = s.ScoreByExpertId,
+                ScoreByExpertId = s.ScoreByAcceptedExpertId,
                 ServiceCategoryId = s.ServiceCategoryId,
             }).ToList();
         }
