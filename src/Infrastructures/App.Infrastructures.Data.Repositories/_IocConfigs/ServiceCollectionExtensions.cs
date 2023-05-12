@@ -8,9 +8,9 @@ namespace App.Infrastructures.Data.Repositories._IocConfigs
         public static void Add_AppRepositories(this IServiceCollection services)
         {
             // Repository Services
-            services.AddSingleton<IOrderRepository, OrderRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
-            services.AddTransient<IOrderRepository, OrderRepository>();
+            services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddScoped<IExpertRepository, ExpertRepository>();
         }
     }
 }
