@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace App.Domain.Core.AppServices.Experts.Queries
 {
-    public class IGetListOfSuitableOrdersAppService
+    public interface IGetListOfSuitableOrdersAppService
     {
     }
 }

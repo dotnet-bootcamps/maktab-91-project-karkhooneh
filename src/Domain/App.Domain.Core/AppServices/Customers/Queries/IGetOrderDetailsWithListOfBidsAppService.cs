@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace App.Domain.Core.AppServices.Customers.Queries
 {
-    public class IGetOrderDetailsWithListOfBidsAppService
+    public interface IGetOrderDetailsWithListOfBidsAppService
     {
     }
 }

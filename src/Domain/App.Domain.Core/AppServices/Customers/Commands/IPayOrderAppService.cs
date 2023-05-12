@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace App.Domain.Core.AppServices.Customers.Commands
 {
-    public class IPayOrderAppService
+    public interface IPayOrderAppService
     {
     }
 }

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.Domain.AppService.Orders.Commands
+namespace App.Domain.AppService.Customers.Commands
 {
     public class ScoreByCustomerAppService : IScoreByCustomerAppService
     {
